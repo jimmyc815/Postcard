@@ -89,6 +89,15 @@
                                     <rect key="frame" x="27" y="89" width="309" height="58"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nameLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E50-i5-JHs">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="21" y="412" width="42" height="21"/>
+                                </variation>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAE-Nl-aMC">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.90980398650000005" green="0.56862747670000002" blue="0.2823529541" alpha="1" colorSpace="deviceRGB"/>
@@ -111,6 +120,7 @@
                                 <exclude reference="fSI-rY-jDY"/>
                                 <exclude reference="203-mC-ZqI"/>
                                 <exclude reference="hOp-eL-GYj"/>
+                                <exclude reference="E50-i5-JHs"/>
                                 <exclude reference="eAE-Nl-aMC"/>
                             </mask>
                         </variation>
@@ -120,6 +130,7 @@
                                 <include reference="fSI-rY-jDY"/>
                                 <include reference="203-mC-ZqI"/>
                                 <include reference="hOp-eL-GYj"/>
+                                <include reference="E50-i5-JHs"/>
                                 <include reference="eAE-Nl-aMC"/>
                             </mask>
                         </variation>
@@ -129,6 +140,7 @@
                         <outlet property="enterNameTextField" destination="fSI-rY-jDY" id="uyt-ok-i1y"/>
                         <outlet property="mailButton" destination="eAE-Nl-aMC" id="60c-Ly-c3w"/>
                         <outlet property="messageLabel" destination="hOp-eL-GYj" id="HpY-0Q-D2R"/>
+                        <outlet property="nameLabel" destination="E50-i5-JHs" id="ICX-Vb-a7I"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vyw-s4-RfD" userLabel="First Responder" sceneMemberID="firstResponder"/>
